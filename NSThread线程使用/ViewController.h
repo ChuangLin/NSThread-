@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIImageView *imgView;
+- (IBAction)btnDidHandle:(id)sender;
+
 
 @end
 
